@@ -42,16 +42,16 @@
             <img src="img/carousel22.png" class="d-sm-block d-none w-100 op bg-painel">
             <img src="img/carousel222.png" class="d-sm-none w-100 bg-painel">
             <div class="carousel-caption my-5 mb-3 mb-md-5 py-5">
-              <h1 class="py-2 my-0">Todos os estilos de tattoo em um só estúdio</h1>
-              <h4 class="my-2 py-0">Realismo - Mangá - Geometria - Oriental - Blackwork.</h4>
+              <h1 class="py-2 anime my-0">Todos os estilos de tattoo em um só estúdio</h1>
+              <h4 class="my-2 anime py-0">Realismo - Mangá - Geometria - Oriental - Blackwork.</h4>
             </div>
           </div>
           <div class="carousel-item">
             <img src="img/carousel33.png" class="d-sm-block d-none w-100 op bg-painel">
             <img src="img/carousel333.png" class="d-sm-none w-100 bg-painel">
             <div class="carousel-caption my-5 mb-3 mb-md-5 py-5">
-              <h1 class="py-2 my-0">Há uma década oferecendo serviços de alta qualidade</h1>
-              <h4 class="my-2 py-0">Tatuadores Experientes para Realizar a Tatuagem de Seus Sonhos.</h4>
+              <h1 class="py-2 anime my-0">Há uma década oferecendo serviços de alta qualidade</h1>
+              <h4 class="my-2 anime py-0">Tatuadores Experientes para Realizar a Tatuagem de Seus Sonhos.</h4>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <section id="sobre">
+    <section id="sobre" class="anime">
       <div class="text-center container color-exclusive fontOld my-5">
         <h5 class="text-dark">Apresentando</h5>
         <h1>Best Studio Tattoo</h1>
@@ -124,9 +124,9 @@
       </div>
     </section>
 
-    <section id="destaque" class="py-4">
+    <section id="destaque" class="py-4 anime">
       <div class="container-fluid mt-5 pt-5 fontOld bg-destaque">
-        <div class="pt-5 mt-5"> 
+        <div class="pt-5 mt-5">
           <h1 class="text-center mt-4">Fazer você bem
             são os quesitos determinantes<br> de um
             tatuador de sucesso.
@@ -135,7 +135,7 @@
             <div class="col-md-4"></div>
             <div class="col-md-4 m-5 p-5 pt-1 mt-md-0">
               <div class="m-md-5 my-md-0 p-md-5">
-              <button class="btn btn-outline-light p-3" type="button">Orçamento</button>
+                <button class="btn btn-outline-light p-3" type="button">Orçamento</button>
               </div>
             </div>
             <div class="col-md-4"></div>
@@ -145,7 +145,7 @@
     </section>
 
 
-    <section id="contato">
+    <section id="contato" class="anime">
       <div class="container fontOld text-dark bg-light pt-5 my-5">
         <div class="card">
           <form class="needs-validation bg-light" novalidate method="post" action="envio.html">
@@ -194,10 +194,11 @@
 
   <?php include("footer.php") ?>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  <script src="js/jsTattoo.js">
-  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/anime.js"></script>
+  <script src="js/jsTattoo.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <footer>
-    <div class="container-fluid bg-black">
+    <div class="container-fluid bg-dark">
       <div class="container">
         <div class="row text-light">
           <div class="col-auto"> <img src="img/logotattoo.png" class="p-3" width="150px"></div>
